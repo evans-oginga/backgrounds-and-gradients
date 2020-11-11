@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: georgia,'times new roman',times,sans-serif;
 }
+body{
+    
+}
+.main-area{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    background: url("images/expedition_hero.jpg") no-repeat;
+}
+.other-content{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    /* display: inline-block;*/
+    display: flex;
+    justify-content: flex-start;    
+    width: 900px;
+    height: 200px;
+    margin: 3px; 
+    background-color: burlywood;
+}
