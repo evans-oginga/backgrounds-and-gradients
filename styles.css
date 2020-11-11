@@ -10,8 +10,29 @@
     background-color: blue;
     background: url("images/expedition_hero.jpg") no-repeat;
 }
+.main-area h1{
+    margin-left: 450px;
+    color: white;
+    padding: 10px;
+}
+.main-area h2{
+    margin-left: 400px;
+    color: white;
+    padding: 10px;
+}
+.main-area h3{
+    margin-left: 480px;
+    color: white;
+    padding: 10px;
+}
+.main-area h3 a{
+    text-decoration: none;
+    color: white;
+}
+.main-area h3 a:hover{
+    text-decoration: underline;
+}
 .navigation{
-
     height: 300px;
     display: -webkit-flex;
     display:         flex;
@@ -20,25 +41,28 @@
     -webkit-justify-content: center;
             justify-content: center;
 }
-.logo{
-    background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png) no-repeat 50% 0;
-}
-   
 ul {
     list-style-type: none;
     margin : 0;
     padding: 0;
     overflow: hidden;
+    background: linear-gradient(grey, black, grey);
+    border-radius: 15px;
+    background-clip: border-box;
 }
   
 li {
     float: left;
 }
-  
 li a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 15px;
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
 }
 .other-content{
     display: flex;
@@ -58,14 +82,13 @@ li a {
     height: 100px;
     margin: 10px;
 }
-
 .misc{
     float: right;
 }
 .misc p{
     display: inline;
     font-size: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 .misc1 p{
     font-size: 15px;
